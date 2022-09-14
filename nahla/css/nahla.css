@@ -1,0 +1,153 @@
+body {
+    /* border: 5px solid #ef8d42; */
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #222;
+    /* width: 100%; */
+  }
+  .welcome{
+    background-image: url("image/welcome.jpg");
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  } 
+  .greeter{
+    background-image: url("images/bee.jpg");
+    height: 600px;
+    color:#fff;
+    font-family: Open Sans Condensed;
+    background-size: cover;
+  }
+  .greeter1{
+    background-color: green;
+  }
+  .greeter2{
+    background-color: blue;
+  }
+  .greeter3{
+    background-color: gray;
+  }
+  .greeter4{
+    background-color: yellow;
+  }
+
+  .fa{
+    display: none;
+    }
+    .navbar{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      /* background: #1C8D73; */
+      padding: 10px 25px;
+    }
+    .navbar a{
+      width: 25%;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    @media(max-width: 768px){
+          .two.columns,.ten.columns{
+                width: 100%;
+          }
+        }
+    ul{
+    flex-wrap: wrap;
+    text-align: center; 
+    }
+    .logo{
+    /* height: 60px; */
+    align-items: center;
+    justify-content: center;
+  
+    }
+    .logo img{
+      width: 175px;
+      vertical-align: middle;
+    }
+    li{
+    padding: 10px 15px;
+    }
+    #mobMenu{
+    display: none;
+    transition: .2s;
+    }
+    .fa{
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    margin: 15px;
+    color: #fff;
+    cursor: pointer;
+    }
+    /* h5{
+    text-align: center;
+    } */
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      text-decoration: none;
+      color: white;
+    }
+
+    .homefooter{
+      background-color: rgb(211, 168, 99);
+    }
+    
+    vertline{
+      display:flex;
+      flex-direction: column;
+    }
+    horzline{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .greeter img{
+      height: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      /* margin-bottom: 50px;
+      max-width: 100%;
+      height: 600px; */
+    }
+    
+    .greeter2{
+      padding-left: 0rem;
+      padding-right: 0rem;
+    }
+
+    .greeter2 img{
+      height: 600px;
+    }
+
+    .buzzing{
+      padding: 60px;
+    }
+    
+    .prefooter{
+      /* background-color: rgb(211, 168, 99); */
+    }
+    .prefooter img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 20%;
+      height: 10%;
+      border-radius: 60px;
+    }
