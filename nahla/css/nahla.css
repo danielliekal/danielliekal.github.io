@@ -49,6 +49,7 @@ body {
       justify-content: space-between;
       align-items: center;
       /* background: #1C8D73; */
+      height: 120px;
       padding: 10px 25px;
     }
     .navbar a{
@@ -66,9 +67,11 @@ body {
     text-align: center; 
     }
     .logo{
-    height: 60px;
-    align-items: center;
-    justify-content: center;
+      width: 50%;
+      height: 10%;
+      align-items: center;
+      justify-content: center;
+      vertical-align: bottom;
   
     }
     .logo img{
@@ -105,6 +108,10 @@ body {
 
     .homefooter{
       background-color: rgb(211, 168, 99);
+    }
+
+    .homefooter i{
+      margin-top: 10px;
     }
     
     vertline{
